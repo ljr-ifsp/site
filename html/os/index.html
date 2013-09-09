@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Operating Systems</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+<h2>SOPS4:
+<br>Sistemas Operacionais
+<br>Segundo semestre de 2013
+</h2>
+<hr>
+
+<p><b>Docente</b>: <a href="http://ljr.sdf.org">Lourenco Alves</a> 
+<br><b>Atendimento</b>: Terça 17:00-18:00.
+<!--br><b>Newsgroup</b>: We will be using <a href="http://www.piazza.com/">Piazza</a> for course-related discussions. Sign up <a href="https://piazza.com/ifsp.edu.br/fall2013/sops4/">here</a>.</p>
+
+<p>TA office hours are listed <a href="https://piazza.com/ifsp.edu.br/fall2013/sops4/staff">here</a>. All office hours will be held in the Moore 100 labs.</p-->
+<hr>
+
+
+
+<h3><b>Descrição</b></h3><p>
+Este curso é uma introdução teórica e prática aos sistemas operacionais atuais. Basicamente, os temas abordados são estruturas dos sistemas operacionais, chamadas de sistema, gerência de processos, gerência de memória, sistemas de arquivos, gerência de entrada e saída. No decorrer das aulas também serão abordados assuntos correlatos como programação concorrente e paralela, segurança, sistemas computacionais distibuídos e avaliação de desempenho. A estratégia de ensino é baseada na exposição de conteúdo teórico acompanhado de estudos de casos práticos.</p>
+
+
+<p><b>Livro texto:</b></p>
+<ul>
+<li>A.S. Tanenbaum. <a href="http://www.amazon.com/Modern-Operating-Systems-Andrew-Tanenbaum/dp/0136006639">Modern Operating Systems (3/e)</a>. Prentice Hall.</li> 
+<li>Abraham Silberschatz, Peter B. Galvin, Greg Gagne. <a href="http://www.amazon.com/Operating-System-Concepts-Abraham-Silberschatz/dp/1118063333/">Operating Systems Concepts (8/e)</a>. Willey.</li> 
+</ul>
+
+<p><b>Prerrequisitos: (desejáveis)</b></p>
+<ul>
+  <li>Linguagem C, conceitos avançado;</li>
+  <li>Estruturas de dados;</li>
+  <li>Arquitetura de Computadores.</li>
+</ul>
+
+
+<hr>
+
+<h3><a name="notas"><b>Notas</b></a></h3><a name="notas">
+
+<ul>
+<li>Avaliação presencial I: 30%</li>
+<li>Avaliação presencial II: 30%</li>
+<li>Trabalhos prático I: 15%</li>
+<li>Trabalhos prático II: 15%</li>
+<li>Atividades avaliadas <i>1..n</i>: 10%</li>
+</ul>
+
+
+<hr>
+
+</a><h3><a name="notas"></a><a name="aulas"><b>Planejamento das aulas</b></a></h3><a name="aulas">
+
+</a><p><a name="aula">Acesse </a><a href="https://piazza.com/ifsp.edu.br/fall2013/sops4/">Piazza</a> para acompanhar o andamento real das aulas.</p>
+
+<table width="100%" border="1">
+<tbody>
+<tr>
+<th>Data</th>
+<th>Tópico</th>
+<th>Leitura</th>
+<th>Observações</th>
+</tr>
+
+<tr>
+<td>06/ago</td>
+<td>Apresentação e introdução</td>
+<td>Capítulo 1</td>
+<td><a href=http://codex.cs.yale.edu/avi/os-book/OS9/os9c/slide-dir/PPT-dir/ch2.ppt>slides</a></td>
+</tr> 
+
+
+<tr>
+<td>09/ago</td>
+<td>Revisão linguagem C, conceitos avançados</td>
+<td>&nbsp;</td>
+<td><a href=https://docs.google.com/file/d/0B8ozPuNnpjgyYkQ5bndIazdvbUk/edit?usp=sharing>Códigos</a></td>
+</tr>
+
+<tr>
+<td>13/ago</td>
+<td>Gerência de processos; estudo de caso fork() e chamada sistema Linux</td>
+<td>Seção 2.1.</td>
+<td>
+  <a href=http://codex.cs.yale.edu/avi/os-book/OS9/os9c/slide-dir/PPT-dir/ch3.ppt>slides</a><br>
+  <a href=https://docs.google.com/file/d/0B8ozPuNnpjgyb0dCMmhqVi1vVkE/edit?usp=sharing>códigos</a><br>
+  <a href=https://docs.google.com/file/d/0B8ozPuNnpjgyZW8xdXlqWWNQWW8/edit?usp=sharing>material de apoio</a>
+</td>
+</tr>
+
+<tr>
+<td>20/ago</td>
+<td>Threads; atividade avaliada 1 e avaliação diagnóstica</td>
+<td>Seção 2.2.</td>
+<td><a href=http://codex.cs.yale.edu/avi/os-book/OS9/os9c/slide-dir/PPT-dir/ch4.ppt>slides</a></td>
+</tr>
+
+<tr>
+<td>27/ago</td>
+<td>Comunicação interprocessos</td>
+<td>Seção 2.3.</td>
+<td><a href=http://codex.cs.yale.edu/avi/os-book/OS9/os9c/slide-dir/PPT-dir/ch6.ppt>slides</a></td>
+</tr>
+
+<tr>
+<td>03/set</td>
+<td>Escalonamento de processos</td>
+<td>Seção 2.4.</td>
+<td><a href=http://codex.cs.yale.edu/avi/os-book/OS9/os9c/slide-dir/PPT-dir/ch5.ppt>slides</a></td>
+</tr>
+
+<tr>
+<td>10/set</td>
+<td>Estudos de caso: programação concorrente; atividade avaliada 2</td>
+<td>Man fork(2), execv(3), pipe(2); pthreads(7)</td>
+<td>
+  Enunciado trabalho prático I <br>
+  <a href=https://github.com/ljr-ifsp/simos><i>Start up<i> do projeto</a>
+</td>
+</tr>
+
+
+</tbody>
+</table>
+
+
+
+<hr>
+
+
+
+</body>
+</html>
