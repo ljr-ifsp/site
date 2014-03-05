@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Lourenço
+tagline:          'Lourenço Alves Pereira Júnior'
+description:      'Lourenço Alves Pereira Júnior is a PhD student at <a href="http://lasdpc.icmc.usp.br">LaSDPC/ICMC/USP, São Carlos</a>. and lecturer at <a href="http://arq.ifsp.edu.br">IFSP, Araraquara</a>. Research interests: large scale distributed systems'' engineering and performance evaluation of computing systems.'
+url:              http://ljr.sdf.org
+
+author:
+  name:           'Lourenço Alves Pereira Júnior'
+  url:            http://ljr.sdf.org
+
+#paginate:         5
+#
+# Custom vars
+#version:          2.0.0
+#
+#github:
+#  repo:           https://github.com/poole/hyde
+
+languages: ["en", "pt_BR"]
+

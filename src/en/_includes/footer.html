@@ -1,0 +1,13 @@
+<footer>
+  <p class="copyright">
+    &copy; {{ site.time | date: '%Y' }} <a href="{{ site.url }}">ljr.sdf.org</a><br />
+    <a class="github" href="https://github.com/ljr-ifsp/site" target="_blank"><img src="/images/github.png"></a>
+    <!-- a class="github" href="https://github.com/ljr-ifsp/site" target="_blank">fork me</a><br /-->
+    {% if site.lang == "en" %}
+      <a href="/pt_BR/"><img src="/public/pt_BR.png" /></a>
+    {% else if site.lang == "pt_BR" %}
+      <a href={{ site.url}}><img src="/public/en.png" /></a> 
+    {% endif %}
+  </p>
+</footer>
+
